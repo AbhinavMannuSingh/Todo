@@ -9,6 +9,7 @@ function TodoItem({ todo, index, deleteTodo, updateTodo }) {
     updateTodo(index, newTodo);
     console.log(isEditing);
     setIsEditing(false);
+    console.log("handle click")
   };
   const handleEditing=()=>{
     setNewTodo(todo)
